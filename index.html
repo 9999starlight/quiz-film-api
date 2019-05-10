@@ -5,22 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description"
+    content="Check your knowledge about movies. Questions about famous actors, directors, movie quotes and more interesting challenges.">
+  <meta name="keywords" content="quiz, movies, trivia, cinema">
+  <meta name="author" content="sestakirena@gmail.com">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link rel="icon" type="image/png" href="./img/mt-16x16.png" sizes="16x16" />
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Movie Time Quiz</title>
 </head>
 
 <body>
-  <div class="contnaslov flex borderR shadow">
-    <h1>Check your knowledge about film</h1>
-    <h1>Choose one of given options</h1>
-    <input type="button" value="Start the quiz" id="pokreniKviz">
+  <div class="introContainer flex borderR shadow">
+    <h1>Check your knowledge about movies</h1>
+    <h3>Choose one of given options</h3>
+    <input type="button" value="Start" id="startQuiz">
   </div>
-  <div class="main-con">
-    <div class="nas flex">
-      <h1 id="naslov" class="shadow"></h1>
-      <h1 id="vreme" class="shadow"></h1>
-    </div>
+  <div class="mainContainer none">
+    <div class="header flex"></div>
     <div class="container flex borderR shadow" id="container">
     </div>
   </div>
