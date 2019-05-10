@@ -1,1 +1,3 @@
-# quiz-fil-api
+Quiz
+
+Movie trivia questions are fetched from Open Trivia Database API https://opentdb.com/ which doesn’t require api key. Open Trivia selects 20 random questions from their base with no duplication in one play. Every question values 1 point. If user clicks on field and then next question, if the answer is correct that field is colored green for 1 second and quiz continues to the next question. If answer is incorrect selected field is colored red and correct answer is bordered with green. Timer for quiz is set for 10 minutes. At the end user sees the score/percentage and have a choice to play again.
