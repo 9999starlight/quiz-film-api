@@ -249,3 +249,9 @@ a:focus {
     transition: 0.5s;
   }
 }
+
+@media (min-width: 1200px) {
+  .mainContainer {
+    margin-top: 2em;
+  }
+}
