@@ -83,6 +83,7 @@ function quiz() {
 
       // check if answer is correct; outcome counter; display red or green;
       function answerCheck() {
+        document.querySelector('#next').removeEventListener('click', answerCheck);
         const options = document.querySelectorAll('input[name="options"]');
         options.forEach((op) => {
           let att = op.getAttribute('id');
